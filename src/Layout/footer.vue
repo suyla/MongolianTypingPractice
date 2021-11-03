@@ -1,6 +1,7 @@
 <template>
-  <router-view></router-view>
+  footer
 </template>
-
+<script>
+</script>
 <style>
 </style>

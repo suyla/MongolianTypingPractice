@@ -1,0 +1,15 @@
+.tb-lr {
+    -ms-writing-mode: tb-lr;
+    -webkit-writing-mode: vertical-lr;
+    -webkit-text-orientation: sideways-right;
+    writing-mode: vertical-lr;
+    /* writing-mode: tb-rl; */
+    text-orientation: sideways-right;
+    font-family: "mongol-font";
+    font-size: 30px;
+}
+
+@font-face {
+    font-family: "mongol-font";
+    src: url(../../assets/fonts/mnglbaizhengotf.ttf);
+}
