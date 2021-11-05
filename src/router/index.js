@@ -4,7 +4,7 @@ import Layout from '@/Layout/index.vue'
 import Login from '@/views/Login/Login.vue'
 import Exercise from '@/views/exercise/exercise'
 import KeyBoard from '@/views/keyboard/keyboard'
-
+import Test from '@/views/test/test'
 const routes = [
   {
     path: "/",
@@ -42,6 +42,16 @@ const routes = [
       {
         path: "",
         component: () => KeyBoard,
+      },
+    ],
+  },
+  {
+    path: "/test",
+    component: Layout,
+    children: [
+      {
+        path: "",
+        component: () => Test,
       },
     ],
   },

@@ -2,7 +2,7 @@
 <div class="da">
   <div class="bigBox">
     <HeaderBox />
-    <div>
+    <div class="routerDiv">
       <router-view />
     </div>
   </div>
@@ -19,6 +19,9 @@ export default {
 };
 </script>
 <style>
+.routerDiv{
+  margin: 0 0 0 21px ;
+}
 .da{
   position: relative;
   display: grid;

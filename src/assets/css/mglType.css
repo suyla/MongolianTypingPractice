@@ -5,11 +5,11 @@
     writing-mode: vertical-lr;
     /* writing-mode: tb-rl; */
     text-orientation: sideways-right;
-    font-family: "mongol-font";
-    font-size: 30px;
+    /* font-family: "mongol-font"; */
+    font-size: 24px;
 }
 
 @font-face {
     font-family: "mongol-font";
-    src: url(../../assets/fonts/mnglbaizhengotf.ttf);
+    src: url(../../assets/fonts/mngldengxianotf.ttf);
 }
